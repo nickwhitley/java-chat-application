@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <Label layoutX="112.0" layoutY="170.0" text="Username">
+         <font>
+            <Font name="Microsoft New Tai Lue" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="226.0" layoutY="175.0" onKeyPressed="#loginFromKey" prefHeight="25.0" prefWidth="259.0" />
+      <Button fx:id="loginButton" layoutX="432.0" layoutY="214.0" mnemonicParsing="false" onAction="#login" text="Login">
+         <font>
+            <Font name="Ebrima" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
